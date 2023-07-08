@@ -1,0 +1,606 @@
+.mynav{
+    width: 100%;
+    height: 15%;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: ;
+
+}
+  .navbar a {
+    font-family:Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 16px;
+    color: #ababab;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+  
+  .sub-menu {
+    float: left;
+  }
+  
+  .sub-menu .dropdown {
+    font-size: 16px;  
+    color: #ababab;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .sub-menu:hover .dropdown {
+   color: #00b39b;
+  }
+  .dropdown{
+    width: 120px;
+    height: 50px;
+    border-radius: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .sub-menu:hover .dropdown-content {
+    display: block;
+  }
+.image-2{
+    padding: 70px 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:  0px;
+}
+.text-1{
+    padding: 10px 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:  0px;
+}
+p{
+    color: #00b39b;
+    font-family: 'work sans';
+    font-size: 30px;
+    font-weight: 300;
+}
+.comments{
+    padding: 10px;
+    width: 100%;
+    justify-content:;
+    margin:  0px;
+}
+.comment-2{
+    padding: 10px;
+    display: grid;
+    place-content: ;
+    width: 100%;
+    justify-content:;
+    margin:  0px;
+}
+.word{
+    color: #747474;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+.word-2{
+    color: #747474;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.mycomments{
+display:flex;
+justify-content:space-between;
+}
+.mynav  .my-list #About-us{
+    color: #00b39b;
+}
+.block-text{
+    width: 350px;
+    margin-left:300px;
+
+}
+.block-text-1{
+    width: 350px;
+    margin-right: 300px;
+    
+
+}
+.mypat{
+
+
+}
+.patients{
+  place-items: center;
+  background-color: #00b39b;
+  width: 317px;
+  height: 345px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.fa-solid{
+  color: white;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.pat{
+
+ 
+}
+h1{
+  display: grid;
+  place-content: center;
+  color: white;
+}
+
+.info{
+  display: grid;
+  place-content: center;
+  font-size: 20px;
+  color: white;
+  
+  }
+  .select-1{
+    padding-left: 60px;
+    padding-top: 60px;
+   
+  
+  }
+
+  .patients select{
+    background-color: #00b39b;
+    border: none;
+    color: white;
+    text-decoration: underline;
+    font-family: 'work sans';
+    font-size: 20px;
+  }
+  .doct{
+  }
+
+.doctors{
+  background-color:#3d83df;
+width: 282px;
+margin-top: 15px;
+height: 345px;
+border-radius: 10px;
+}
+.doc{
+
+}
+
+.info-1{
+  display: grid;
+  place-content: center;
+  font-size: 20px;
+  color: white;
+}
+.select-2{
+  padding-top: 60px;
+  padding-left: 40px;
+  
+
+}
+.doctors select{
+  background-color: #3d83df;
+  border: none;
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+  font-family: 'work sans';
+}
+.clin{
+}
+.clinics{
+  background-color:#1b2734;
+  width: 327px;
+  margin-top: 15px;
+  height: 345px;
+  border-radius:10px ;
+}
+.cli{
+ margin: 0;
+}
+.info-2{
+  display: grid;
+  place-content: center;
+  font-size: 20px;
+  color: white;
+}
+.select-3{
+  padding-left: 60px;
+
+}
+.clinics select{
+  background-color: #1b2734;
+  border: none;
+  color: white;
+  text-decoration: underline;
+  font-family: 'work sans';
+  font-size: 20px;
+}
+.select-4{
+  padding: 30px 0px 0px 0px;
+}
+
+.mybox{
+  width: 1000px;
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: row;
+  margin: 3.75rem auto 2.5rem;
+}
+
+.gipo{
+  height: 38px;
+  width: 81px;
+}
+
+.section3{
+  margin: 0;
+  display: flex;
+
+}
+#section3logos{
+  width: 100%;
+
+}
+img{
+
+  padding: 15px 20px ;
+  
+}
+#section3title{
+  width: 100%;
+  margin: 0px;
+  
+}
+.sectext{
+  font-size: 20px;
+}
+.sectiontext{
+  margin-left: 250px;
+  width: 200px;
+}
+.section4{
+  width: 1359px;
+  height: 609px;
+margin-top: 20px;
+  background-color: #d0faf4;
+  display: flex;
+  justify-content: space-between;
+}
+.section4header{
+  width: 600px;
+  height: 608px;
+
+}
+#leader{
+width: 220px;
+height: 250px;
+margin-bottom: 15px;
+background-color: white;
+}
+#patients{
+  width: 220px;
+height: 240px;
+background-color: white;
+}
+#appointments{
+  width: 220px;
+height: 240px;
+margin-bottom: 15px;
+background-color: white;
+}
+#doctors{
+  width: 220px;
+  height: 240px;
+  background-color: white
+}
+.country{
+  display:flex ;
+  justify-content: center;
+  width: 1333px;
+  height: 361px;
+}
+.country2{
+  display:flex;
+  justify-content: center;
+}
+.country3{
+  display: flex;
+  justify-content: center;
+}
+#leader2{
+  margin-top: 7px;
+  margin-right:7px ;
+  margin-left: 7px;
+  margin-bottom: 7px;
+  
+}
+.section4fourparts{
+  margin-top: 50px;
+  height: 550px;
+  width: 300px;
+ 
+}
+.section4text{
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  width: 500px;
+  }
+  .textdiv{
+    display:flex;
+    justify-content: right;
+
+    
+  }
+.sectionpart{
+  display: flex;
+  width: 600px;
+  height: 608px;
+  align-content: center;
+  
+}
+.logocropped{
+  display: flex;
+  justify-content: right;
+  margin-top: 32px;
+}
+.section1part{
+  width: 700px;
+
+}
+.second2{
+  margin-top: 20px;
+  
+}
+.flag1{
+  margin-top:5px;
+}
+.leader2{
+
+}
+.flag2{
+  display: flex;
+  justify-content: center;
+}
+
+#text{
+  display: flex;
+  justify-content: center;
+}
+#text1{
+  display: flex;
+  padding: 0;
+}
+.paragh{
+  text-align: center;
+}
+.patients_png{
+  display: flex;
+  justify-content: center;
+}
+#pati{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.appoint-1{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+#doctor-1{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+#section-5{
+  width: 600px;
+  height: 200px;
+  margin-top: 70px;
+  margin-bottom:70px;
+}
+#section5{
+  display: flex;
+  justify-content: center;
+}
+.warsaw{
+
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: px;
+}
+b{
+  font-size: 10px;
+  color: white;
+  font-family: 'roboto';
+  font-weight: 700;
+  padding: 1px 1px 10px;
+}
+button{
+  border: 1px solid white;
+  width: 93px;
+  height: 34px;
+  background-color: #3d83df;
+  border-radius: 5px;
+}
+#countrys{
+  background-color: white;
+  margin-bottom: 15px;
+}
+#countrys:hover{
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgray;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  
+}
+.mage{
+ 
+  padding: 0;
+}
+#countrys1{
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#countrys1:hover{ 
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgray;
+  margin-bottom: 15px;
+  border-radius: 10px;
+
+}
+
+
+#country2{
+  margin-bottom: 15px;
+}
+#country2:hover{
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgray;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.mage1{
+  padding: 0;
+}
+.mage2{
+  padding: 0;
+}
+.mage3{
+padding: 0;
+}
+.mage4{
+padding: 0;
+}
+.mage5{
+padding: 0;
+}
+.mage6{
+padding: 0;
+}
+.mage7{
+padding: 0;
+}
+.mage8{
+padding: 0;
+}
+#country3{
+margin-bottom: 10px;
+}
+#country3:hover{
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgray;
+  margin-bottom: 15px;
+  border-radius: 10px;
+
+}
+#country4{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#country4:hover{
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgray;
+  margin-bottom: 15px;
+  border-radius: 10px;
+
+}
+#country5{
+  margin-bottom: 10px;
+}
+#country5:hover{
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgray;
+  margin-bottom: 15px;
+  border-radius: 10px;
+
+  
+}
+#country6{
+  margin-bottom: 10px;
+}
+#country6:hover{
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgray;
+  margin-bottom: 15px;
+  border-radius: 10px;
+
+}
+#country7{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#country7:hover{
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgray;
+  margin-bottom: 15px;
+  border-radius: 10px;
+
+}
+#country8{
+  margin-bottom: 10px;
+}
+#country8:hover{
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgray;
+  margin-bottom: 15px;
+  border-radius: 10px;
+
+}
+#buttons_barcelona{
+
+}
+.countries{
+  font-size: 13px;
+  color: #ababab;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'roboto';
+}
+.countries a{
+  color:#3d83d7;
+}
+.section_7{
+  margin-top: 100px;
+}
+#section_7text{
+
+  font-size: 12px; 
+  font-family:'roboto';
+  color: #ababab; 
+  text-align: center;
+}
